@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		940FAF5525080274006514A6 /* MealTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940FAF5425080274006514A6 /* MealTableViewController.swift */; };
+		9451ECCD2511495E009C72DA /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 9451ECCC2511495E009C72DA /* README.md */; };
 		94A5CBAB24D9DCCD00B4388D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A5CBAA24D9DCCD00B4388D /* AppDelegate.swift */; };
 		94A5CBAD24D9DCCD00B4388D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A5CBAC24D9DCCD00B4388D /* SceneDelegate.swift */; };
 		94A5CBAF24D9DCCD00B4388D /* MealViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A5CBAE24D9DCCD00B4388D /* MealViewController.swift */; };
@@ -34,6 +35,7 @@
 
 /* Begin PBXFileReference section */
 		940FAF5425080274006514A6 /* MealTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealTableViewController.swift; sourceTree = "<group>"; };
+		9451ECCC2511495E009C72DA /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		94A5CBA724D9DCCD00B4388D /* FoodTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		94A5CBAA24D9DCCD00B4388D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		94A5CBAC24D9DCCD00B4388D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -74,6 +76,7 @@
 				94A5CBA924D9DCCD00B4388D /* FoodTracker */,
 				94A5CBC024D9DCD400B4388D /* FoodTrackerTests */,
 				94A5CBA824D9DCCD00B4388D /* Products */,
+				9451ECCC2511495E009C72DA /* README.md */,
 			);
 			sourceTree = "<group>";
 		};
@@ -196,6 +199,7 @@
 			files = (
 				94A5CBB724D9DCD300B4388D /* LaunchScreen.storyboard in Resources */,
 				94A5CBB424D9DCD300B4388D /* Assets.xcassets in Resources */,
+				9451ECCD2511495E009C72DA /* README.md in Resources */,
 				94A5CBB224D9DCCD00B4388D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
