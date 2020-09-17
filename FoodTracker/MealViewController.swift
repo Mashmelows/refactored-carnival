@@ -24,6 +24,12 @@ class MealViewController: UIViewController, UITextFieldDelegate, UIImagePickerCo
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        if let noNilMeal = meal {
+            navigationItem.title = noNilMeal.name
+            mealNameText.text = noNilMeal.name
+            photoImageView.image = noNilMeal.photo
+            ratingControl.rating = noNilMeal.rating
+        }
         
         mealNameText.delegate = self
         updateSaveButtonState()
@@ -62,8 +68,11 @@ class MealViewController: UIViewController, UITextFieldDelegate, UIImagePickerCo
    }
   
     @IBAction func didTapCancelButton(_ sender: Any) {
-        
-        dismiss(animated: true, completion: nil)
+        if self.presentingViewController != nil{
+            dismiss(animated: true, completion: nil)
+        } else if let navigationController = self.navigationController {
+            navigationController.popViewController(animated: true)
+        }
     }
     
     
